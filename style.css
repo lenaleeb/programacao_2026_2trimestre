@@ -5,3 +5,18 @@ body {
     margin: 20px;
 
 }
+
+.galeria-herbalista {
+    display: flex;
+    gap: 20px;            /* Espaço entre as duas imagens */
+    width: 90%;           /* Largura total do conjunto */
+    margin: 30px auto;    /* Centraliza o bloco na página */
+}
+
+.imagem-lado-a-lado {
+    flex: 1;              /* Faz as duas ocuparem exatamente o mesmo espaço (50% cada) */
+    width: 100%;          /* Preenche a metade reservada */
+    height: 300px;        /* Defina a altura que desejar */
+    object-fit: cover;    /* Corta a imagem proporcionalmente sem distorcer ou esticar */
+    border-radius: 12px;  /* Bordas arredondadas (opcional) */
+}
