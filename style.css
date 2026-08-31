@@ -6,3 +6,11 @@ body {
 
 }
 
+.imagem-centralizada {
+    display: block;        /* Transforma a imagem em bloco para permitir centralização */
+    margin: 30px auto;     /* O "auto" nas laterais centraliza o elemento na tela */
+    width: 80%;            /* Define a largura (ajuste a porcentagem como preferir) */
+    max-width: 900px;      /* Define um limite máximo para não ficar gigante em telas grandes */
+    height: auto;          /* Mantém a proporção original sem distorcer */
+    border-radius: 12px;   /* Opcional: bordas arredondadas */
+}
